@@ -405,8 +405,7 @@ button {
 .records-img-circle3::before {
 
     background-image: url("../images/icons/i-diamond.svg");
-    background-size: cover;
-    background-position: center;
+   
 }
 
 .records-img-circle4::before {
