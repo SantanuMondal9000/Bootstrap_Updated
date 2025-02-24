@@ -14,7 +14,7 @@
 
 <body>
     <!-- Header-->
-    <header class="">
+    <header>
         <div class="container p-0">
             <nav class="navbar navbar-expand-sm p-0">
                 <div class="container p-0">
@@ -63,12 +63,12 @@
     <!-- End Header -->
     <!-- Bannre -->
     <section class="banner-block ">
-        <div class="container">
+        <div class="container h-100">
             <div class=" text-part banner-wrapper border-3 border-danger position-relative ">
                 <div class="w-100 position-absolute top-50 start-50 translate-middle">
                     <h1 class="display-3 m-0">We Will <span> Make </span> Your <span>Bussines</span> <span
                             class="breaking-point">Great Again</span></h1>
-                    <p class="m-4">Qnsectetur adipisicing elit. Impedit repudiandae nisi<br> maiores dolore dolor.</p>
+                    <p class="m-4">Qnsectetur adipisicing elit. Impedit repudiandae nisi<span class="breaking-point"> maiores dolore dolor.</span></p>
                     <ul class="d-flex justify-content-center gap-3 m-0">
                         <li class="list-unstyled"><a
                                 class="text-decoration-none rounded-pill btn-active2 px-5 py-3 text-white fw-bold d-inline-block"
@@ -79,17 +79,17 @@
                     </ul>
                 </div>
                 <div class="position-absolute bottom-0 start-50 translate-middle-x pb-4">
-                    <a href="#block2"><img src="images/icons/darrow.png" width="20" height="15"
+                    <a href="#about"><img src="images/icons/darrow.png" width="20" height="15"
                             alt="Down Arrow" title="Down Arrow"></a>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Banner -->
-    <!-- Block 2 -->
-    <section class="block-2 py-6" id="block2">
+    <!-- about -->
+    <section class="about py-6" id="about">
         <div class="container">
-            <div class="block-2-wrapper">
+            <div class="about-wrapper">
                 <div class="content-section d-flex">
                     <div class=" content-section-item w-50 p-3">
                         <h2 class="display-5">Hello <span>World</span></h2>
@@ -98,26 +98,14 @@
                             provident ut rerum
                             excepturi, ex iure veritatis. Deleniti numquam quis voluptate tempora. Aliquam voluptatibus
                             placeat, maiores!</p>
-                        <div>
-                            <div class="d-flex align-items-center my-3">
-                                <img src="images/icons/i-diamond_b.svg" width="30" height="30" alt="i-diamond"
-                                    title="Diamond">
-                                <p class="ps-3 mb-0 fw-medium text-gray">Exploring your activity area</p>
-                            </div>
-                            <div class="d-flex align-items-center my-3">
-                                <img src="images/icons/i-wallet_b.svg" width="30" height="30" alt="i-wallet_b"
-                                    title="Wallet">
-                                <p class="ps-3 mb-0 fw-medium text-gray">Competetive analysis</p>
-                            </div>
-                            <div class="d-flex align-items-center my-3">
-                                <img src="images/icons/i-trophy_b.svg" width="30" height="30" alt="i-trophy_b"
-                                    title="Trophy">
-                                <p class="ps-3 mb-0 fw-medium text-gray">Do the work in time</p>
-                            </div>
-                        </div>
+                        <ul class="abut-block-list p-0 m-0">
+                            <li>Exploring your activity area</li>
+                            <li>Competetive analysis</li>
+                            <li>Do the work in time</li>
+                        </ul>
                     </div>
                     <div class="content-section-item w-50 h-auto">
-                        <img class="w-100" src="images/img-3.jpg" width="" height="" alt="Modern office workspace"
+                        <img class="img-fluid" src="images/img-3.jpg" width="660" height="439" alt="Modern office workspace"
                             title="Modern office workspace">
                     </div>
                 </div>
@@ -137,7 +125,6 @@
             <div class="row mt-5">
                 <div class="col-sm-4 ">
                     <div class="img-circle circle-image-content img-circle1 mx-auto rounded-circle">
-                        <!-- <img src="images/icons/i-message_w.svg" alt="i-message" width="45" height="45" title="Message"> -->
                     </div>
                     <h3 class="my-3">Digital Marketing</h3>
                     <p class="fs-6 opacity-75 fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
@@ -177,7 +164,7 @@
     <section class="product-block py-6">
         <div class="container">
             <div class="product-block-wrapper">
-                <h2 class="display-5 m-0"><span>Good design</span> is obvious <br>Great design is transparent</h2>
+                <h2 class="display-5 m-0"><span>Good design</span> is obvious <span class="breaking-point">Great design is transparent</h2>
                 <p class="my-5"> <span class="fw-bold text-gray">About Joe &copy</span> graphic designer digital
                     literacy teacher</p>
                 <ul class="list-unstyled d-flex">
@@ -315,39 +302,45 @@
             <div class="pricing-container d-flex gap-4 text-center">
                 <div class="pricing-item flex-fill rounded py-5 shadow-sm p-3 mb-5 bg-body">
                     <h3 class="fs-3 text-gray ">Trial version</h3>
-                    <p class="text-gray opacity-75">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit</p>
+                    <p class="text-gray opacity-75">Lorem ipsum dolor sit amet, consectetur<span class="breaking-point"> adipisicing elit</span></p>
                     <div class="plans_feature mt-5">
                         <h4 class="fs-3 text-gray">free</h4>
-                        <p class="text-gray opacity-75">500gb drive space</p>
-                        <p class="text-gray opacity-75">Unlimited messages</p>
-                        <p class="text-gray opacity-25">Free Email Address</p>
-                        <p class="text-gray opacity-25">Freindly support</p>
+                        <ul class="pricing-list m-0 p-0">
+                            <li>500gb drive space</li>
+                            <li>Unlimited messages</li>
+                            <li class="fade-list-item">Free Email Address</li>
+                            <li class="fade-list-item">Freindly support</li>
+                        </ul>
                         <a class="text-decoration-none mt-4 rounded-pill text-gray px-5 py-3 btn-hover2 fw-bold  d-inline-block "
                             href="#">DOWNLOAD</a></li>
                     </div>
                 </div>
                 <div class="pricing-item flex-fill rounded py-5 shadow-sm p-3 mb-5 bg-body">
                     <h3 class="fs-3 text-gray">Regular</h3>
-                    <p class="text-gray opacity-75">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit</p>
+                    <p class="text-gray opacity-75">Lorem ipsum dolor sit amet, consectetur<span class="breaking-point"> adipisicing elit</span></p>
                     <div class="plans_feature mt-5">
                         <h4 class="fs-3 text-gray "><span class="fs-6">$</span>19<span class="fs-6">/Month</span></h4>
-                        <p class="text-gray opacity-75">500gb drive space</p>
-                        <p class="text-gray opacity-75">Unlimited messages</p>
-                        <p class="text-gray opacity-75">Free Email Address</p>
-                        <p class="text-gray opacity-25">Freindly support</p>
+                        <ul class="pricing-list m-0 p-0">
+                            <li>500gb drive space</li>
+                            <li>Unlimited messages</li>
+                            <li>Free Email Address</li>
+                            <li class="fade-list-item">Freindly support</li>
+                        </ul>
                         <a class="text-decoration-none  mt-4 rounded-pill px-5 py-3 btn-active2 fw-bold  d-inline-block "
                             href="#">PURCHASE</a></li>
                     </div>
                 </div>
                 <div class="pricing-item flex-fill rounded py-5 shadow-sm p-3 mb-5 bg-body">
                     <h3 class="fs-3 text-gray">Extended</h3>
-                    <p class="text-gray opacity-75">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit</p>
+                    <p class="text-gray opacity-75">Lorem ipsum dolor sit amet, consectetur<span class="breaking-point"> adipisicing elit</span></p>
                     <div class="plans_feature mt-5">
                         <h4 class="fs-3 text-gray "><span class="fs-6">$</span>29<span class="fs-6">/Month</span></h4>
-                        <p class="text-gray opacity-75">500gb drive space</p>
-                        <p class="text-gray opacity-75">Unlimited messages</p>
-                        <p class="text-gray opacity-75">Free Email Address</p>
-                        <p class="text-gray opacity-75">Freindly support</p>
+                        <ul class="pricing-list m-0 p-0">
+                            <li>500gb drive space</li>
+                            <li>Unlimited messages</li>
+                            <li>Free Email Address</li>
+                            <li>Freindly support</li>
+                        </ul>
                         <a class="text-decoration-none  mt-4 rounded-pill text-gray px-5 py-3 btn-hover2 fw-bold  d-inline-block "
                             href="#">PURCHASE</a></li>
                     </div>
